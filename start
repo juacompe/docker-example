@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd `dirname $0`
+
+CURRENT=`pwd`
+docker run -d -P -v "$CURRENT/site:/usr/share/nginx/html"  --name mysite nginx
