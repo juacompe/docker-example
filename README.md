@@ -2,6 +2,13 @@ Docker example
 ====
 This is simple image which hosted html files in `site` using nginx.
 
+Build a container
+----
+
+```
+docker build -t example .
+```
+
 Start a container
 ----
 
