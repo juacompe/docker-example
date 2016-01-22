@@ -32,3 +32,17 @@ are mounted to `/usr/share/nginx/html` in the container.
 ```
 docker exec -it mysite bash
 ```
+
+Container IP
+----
+
+```
+docker-machine ip default
+```
+
+Container port
+----
+
+```
+docker ps
+```
